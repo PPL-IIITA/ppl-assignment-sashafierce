@@ -13,7 +13,7 @@ pycco
  ```
 
 ### Build Instructions
-  cd to the root project directly and run :
+  cd to the root project directory and run :
 
 1. **First Question**
   ```
