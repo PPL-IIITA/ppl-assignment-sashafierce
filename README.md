@@ -24,6 +24,8 @@ pycco
   ```
   python2.7 q2.py
   ```
+  ** For part 2 of assignment checkout branch 'part2'** 
+ 
   *Logs are contained in logfile.txt*
 
 
