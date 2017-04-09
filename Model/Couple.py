@@ -1,5 +1,10 @@
+""" model class for Couple """
 class Couple:
 
+    """
+     constructor to initialize a couple with associated attributes
+
+     """
     def __init__(self, girl, boy, gtype , btype , budget,maintenance, gintelligence ,compatibility ):
         self.girl = girl
         self.boy = boy

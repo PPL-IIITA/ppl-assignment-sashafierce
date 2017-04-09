@@ -1,13 +1,21 @@
+"""
+utility class for couple formation
+"""
 from Utility import LogUtil
 from Model import Couple
 
-
+"""
+method for calculating compatibility of a girl and a boy based on the attributes :
+intelligence , attractiveness and maintenance/ budget
+"""
 def calc_compatibility(girl  , boy):
     a = abs(int(girl.intelligence) - int(boy.intelligence) )
     b = abs(int(girl.attractiveness)- int(boy.attractiveness) )
     return a + b + abs(int(girl.maintenance) - int(boy.budget))
 
-
+"""
+method for couple formation from a list of girls and boys and logging the events
+"""
 def make_couples(girls, boys):
     couples = 0
     couple_list = []

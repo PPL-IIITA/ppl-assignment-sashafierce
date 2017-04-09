@@ -1,7 +1,11 @@
+"""
+file containing source code for returning k happiest and k most compatible couples
+"""
 from random import randint
 from csv import reader
 from Model import Gift , Girl
 from Utility import TestUtil , GiftUtil
+
 
 no_of_gifts = randint(100, 1000)
 file_gifts = TestUtil.random_gifts(no_of_gifts)

@@ -1,9 +1,15 @@
+"""
+utility class for gifting between a couple
+"""
 import math
 import csv
 from Utility import MatchMaker
 from Model import Couple, Girl, Boy
 
-
+"""
+method for performing gifting between couple as per logic specified
+arguments : gift_list consisting of randomly generated gifts of each kind 
+"""
 def gift_exchange(gift_list):
     infile = open("girls_test.csv", "rb")
     girl_list = []
