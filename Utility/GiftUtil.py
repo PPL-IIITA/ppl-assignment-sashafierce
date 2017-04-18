@@ -1,5 +1,5 @@
 """
-utility class for gifting between a couple
+utility for gifting between a couple
 """
 import math
 import csv
