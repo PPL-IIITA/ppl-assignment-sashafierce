@@ -27,7 +27,7 @@ def make_couples(girls, boys):
                 couple_list.append(Couple.Couple(girl.name , boy.name,girl.type , boy.type, boy.budget, girl.maintenance, girl.intelligence ,calc_compatibility(girl, boy)))
                 LogUtil.log_events("couple formed", girl.name + " got committed with " + boy.name)
                 break
-    print(str(couples) + " couples formed successfully\n")
+    print("Total couples = " + str(couples) + " \n")
     return couple_list
 
 
